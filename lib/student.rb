@@ -1,6 +1,8 @@
 class Student < User
-  def initialize(knowledge)
+  
+  def initialize
     super
-    @knowledge = knowledge
+    @knowledge = [knowledge]
   end
+  
 end
