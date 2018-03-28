@@ -1,8 +1,7 @@
 class Student < User
-  
+
   def initialize
-    super
-    @knowledge = [knowledge]
+    @knowledge = []
   end
-  
+
 end
